@@ -82,11 +82,11 @@ WeaponData
 		}
 		"crosshair"
 		{
-			"file"	"vgui/replay/thumbnails/ql_3"
+			"file"	"vgui/replay/thumbnails/fighterpilot"
 			"x"	"0"
 			"y"	"0"
-			"width"	"64"
-			"height"	"64"
+			"width"	"2048"
+			"height" "1024"
 		}
 		"autoaim"
 		{
