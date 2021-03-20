@@ -145,7 +145,7 @@
 	{
 		"ControlName"								"EditablePanel"
 		"fieldName"									"ObjectiveStatusTimePanel"
-		"xpos"										"cs-0.5"
+		"xpos"										"c-50"
 		"ypos"										"1"
 		"zpos"										"5"
 		"wide"										"100"
@@ -158,14 +158,13 @@
 		"PositiveColor"								"0 255 0 255"
 		"NegativeColor"								"255 0 0 255"
 		"delta_lifetime"							"2"
-		"delta_item_font"							"m0refont11"
-		"proportionaltoparent"						"1"
+		"delta_item_font"							"default"
 		
 		"TimePanelValue"
 		{
 			"ControlName"							"CExLabel"
 			"fieldName"								"TimePanelValue"
-			"font"									"m0refont16"
+			"font"									"M0refont16"
 			"fgcolor"								"White"
 			"xpos"									"26"
 			"ypos"									"-2"
@@ -229,9 +228,9 @@
 				"fieldName"							"classimage"
 				"xpos"								"cs-0.5"
 				"ypos"								"0"
-				"zpos"								"5"
-				"wide"								"15"
-				"tall"								"15"
+				"zpos"								"2"
+				"wide"								"14"
+				"tall"								"14"
 				"visible"							"1"
 				"enabled"							"1"
 				"image"								"../hud/class_scoutred"
@@ -247,7 +246,7 @@
 				"ypos"								"0"
 				"zpos"								"2"
 				"wide"								"f0"
-				"tall"								"f0"
+				"tall"								"14"
 				"visible"							"1"
 				"enabled"							"1"
 				"PaintBackgroundType"				"0"
@@ -260,10 +259,10 @@
 				"fieldName"							"healthbar"
 				"font"								"Default"
 				"xpos"								"0"
-				"ypos"								"0"
+				"ypos"								"13"
 				"zpos"								"3"
 				"wide"								"f0"
-				"tall"								"f0"
+				"tall"								"2"
 				"autoResize"						"0"
 				"pinCorner"							"0"
 				"visible"							"1"
@@ -281,10 +280,10 @@
 				"fieldName"							"overhealbar"
 				"font"								"Default"
 				"xpos"								"0"
-				"ypos"								"0"
+				"ypos"								"13"
 				"zpos"								"4"
 				"wide"								"f0"
-				"tall"								"f0"				
+				"tall"								"2"
 				"autoResize"						"0"
 				"pinCorner"							"0"
 				"visible"							"1"
@@ -324,7 +323,7 @@
 				"ypos"								"0"
 				"zpos"								"10"
 				"wide"								"f0"
-				"tall"								"15"
+				"tall"								"13"
 				"autoResize"						"0"
 				"pinCorner"							"0"
 				"visible"							"1"
@@ -694,6 +693,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
+	
 	"RoundCounter"
 	{
 		"fieldName"									"RoundCounter"
@@ -702,6 +702,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
+	
 	"CountdownLabelShadow"
 	{	
 		"ControlName"								"CExLabel"
@@ -711,6 +712,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
+	
 	"RoundSignModel"
 	{
 		"ControlName"								"CModelPanel"
@@ -719,6 +721,7 @@
 		"visible"									"0"
 		"enabled"									"0"
 	}
+	
 	"RankUpShadowLabel"
 	{	
 		"ControlName"								"CExLabel"
